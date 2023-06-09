@@ -5,7 +5,7 @@ from django.test import TestCase
 class SampleTest(TestCase):
 
     def test_2_plus_2_is4(self):
-        self.assertEqual(2 + 2, 4)
+        self.assertEqual(2 + 2, 5)
 
     def test_3_plus_3_is4(self):
         self.assertEqual(3 + 3, 6)
